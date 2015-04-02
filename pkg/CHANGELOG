@@ -1,5 +1,5 @@
 2015-3-31 Yu-Sung Su     <suyusung@tsinghua.edu.cn>
-   * DESCRIPTION (Version, Date): 1.8-01
+   * DESCRIPTION (Version, Date): 1.8-02
    * R/bayesglm: revert back to a more straightforward coding, easier for debugging.
    * R/bayespolr: check n.iter to maxit, and pass it through control.
 
