@@ -239,7 +239,8 @@ The new arguments here are: \code{prior.mean}, \code{prior.scale},
   display (M1)
 
   M2 <- bayesglm (y ~ x1 + x2, family=binomial(link="logit"),
-    prior.scale=Inf, prior.df=Inf)
+    prior.scale=Inf, prior.df=Inf, 
+    prior.scale.for.intercept=Inf, prior.df.for.intercept=Inf)
   display (M2)  # just a test:  this should be identical to classical logit
 
   M3 <- bayesglm (y ~ x1 + x2, family=binomial(link="logit"))

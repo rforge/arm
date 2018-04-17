@@ -1,4 +1,9 @@
 2018-4-12 Yu-Sung Su     <suyusung@tsinghua.edu.cn>
+      * DESCRIPTION: (Version, Date): 1.10.2
+      * man/bayesglm: Should set prior.scale and prior.df for 
+            intercept to be Inf in order to yield same result as the logit
+
+2018-4-12 Yu-Sung Su     <suyusung@tsinghua.edu.cn>
       * DESCRIPTION: (Version, Date): 1.10.1
       * R/bayesglm: fix a bug where scale=TRUE the prior.scale miscount the nvars.
       * R/sim.glm: improve the speed.  
@@ -10,7 +15,7 @@
 
 2016-9-4 Yu-Sung Su     <suyusung@tsinghua.edu.cn>
       * DESCRIPTION: add BugReports and change LICENSE to GPL >=3, fix Vincent's name (spelling error, sorry Vincent!)
-=======
+
 2016-9-2 Yu-Sung Su     <suyusung@tsinghua.edu.cn>
       * DESCRIPTION: add BugReports and change LICENSE to GPL >=3
       * Doc fix Vincent's name
