@@ -1,7 +1,13 @@
-2018-4-12 Yu-Sung Su     <suyusung@tsinghua.edu.cn>
-      * DESCRIPTION: (Version, Date): 1.10.2
-      * man/bayesglm: Should set prior.scale and prior.df for 
-            intercept to be Inf in order to yield same result as the logit
+2020-7-27 Yu-Sung Su     <suyusung@tsinghua.edu.cn>
+      * DESCRIPTION: (Version, Date): 1.11.2
+      * NAMESPACE: import weighted.mean from stats and wtd.var from Hmisc
+      * R/balance: new balance, print.balance, plot.balance function
+      * R/matching: new matching function
+      * man/balance: new description to new functions
+
+2020-4-27 Yu-Sung Su     <suyusung@tsinghua.edu.cn>
+      * DESCRIPTION: (Version, Date): 1.11.0
+      * NAMESPACE: import setClass from methods  (BUGS reported by Henrik)
 
 2018-4-12 Yu-Sung Su     <suyusung@tsinghua.edu.cn>
       * DESCRIPTION: (Version, Date): 1.10.1
@@ -15,7 +21,7 @@
 
 2016-9-4 Yu-Sung Su     <suyusung@tsinghua.edu.cn>
       * DESCRIPTION: add BugReports and change LICENSE to GPL >=3, fix Vincent's name (spelling error, sorry Vincent!)
-
+=======
 2016-9-2 Yu-Sung Su     <suyusung@tsinghua.edu.cn>
       * DESCRIPTION: add BugReports and change LICENSE to GPL >=3
       * Doc fix Vincent's name
